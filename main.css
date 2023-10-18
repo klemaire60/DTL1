@@ -1,18 +1,31 @@
+html {
+    width: 558px;
+}
+
 .menu {
-    height: 75px; /* Taille de la div Menu */
+    height: 75px; /* Taille de la div Menu (Hauteur)*/
     background-color: #a6292a; /* Couleur de l'arrière-plan de la div Menu */
     color: #fc0f13; /* Couleur du Texte de la div Menu */
-    text-align: center;
+    text-align: center; /* Position du texte */  
 }
 
 .corps {
-    height: 350px;  /* Taille de la div Corps */
+    height: 350px;  /* Taille de la div Corps (Hauteur) */
     background-color: #6495ed; /* Couleur de l'arrière-plan de la div corps */
 }
 
 #div-image {
-    height: 213px;
-    width: 405px;
+    float: left;
+    height: 213px;  /* Taille de la div image (Hauteur) */
+    width: 294px;   /* Taille de la div image (longueur) */
     background-color: #2677a5; /* Couleur de l'arrière plan de la div image */
-    text-align: center;
+    text-align: center;  /* Position du texte */
+    
+}
+
+#div-tableau {
+    float:right;
+    height: 132px;
+    width: 293px;
+    background-color: darkblue;
 }
