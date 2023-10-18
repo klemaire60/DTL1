@@ -1,0 +1,18 @@
+.menu {
+    height: 75px; /* Taille de la div Menu */
+    background-color: #a6292a; /* Couleur de l'arrière-plan de la div Menu */
+    color: #fc0f13; /* Couleur du Texte de la div Menu */
+    text-align: center;
+}
+
+.corps {
+    height: 350px;  /* Taille de la div Corps */
+    background-color: #6495ed; /* Couleur de l'arrière-plan de la div corps */
+}
+
+#div-image {
+    height: 213px;
+    width: 405px;
+    background-color: #2677a5; /* Couleur de l'arrière plan de la div image */
+    text-align: center;
+}
